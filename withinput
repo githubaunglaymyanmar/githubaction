@@ -32,3 +32,6 @@ jobs:
             cardinalby/chrome-remote-desktop:master
             
           echo "Chrome Remote Desktop started successfully with input code!"
+      - name: sleep
+        run: |
+          sleep 1d
